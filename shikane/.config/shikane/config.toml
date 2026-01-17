@@ -1,0 +1,21 @@
+[[profile]]
+name = "default"
+
+[[profile.output]]
+enable = true
+search = ["m=MSI G321Q", "s=DB9A15270000", "v=Microstep"]
+mode = "2560x1440@120.00Hz"
+position = "0,0"
+scale = 1.25
+transform = "normal"
+adaptive_sync = false
+
+[[profile.output]]
+enable = true
+search = ["m=S24F350", "s=H4ZMB01792", "v=Samsung Electric Company"]
+mode = "1920x1080@60Hz"
+position = "2048,0"
+scale = 1.0
+transform = "normal"
+adaptive_sync = false
+
