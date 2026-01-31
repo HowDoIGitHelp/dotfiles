@@ -116,7 +116,6 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source ~/.local/share/zsh/aliases
 source ~/.profile
 
 [ -f "/home/rub/.ghcup/env" ] && . "/home/rub/.ghcup/env" # ghcup-env
@@ -135,3 +134,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
